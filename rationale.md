@@ -1,9 +1,9 @@
-# RATIONALE.md
+# rationale.md
 
 > This document explains the reasoning behind the collaboration protocol.
 >
-> **Protocol.md** defines *how* we collaborate.
-> **RATIONALE.md** explains *why* the protocol is structured the way it is.
+> **protocol.md** defines *how* we collaborate.
+> **rationale.md** explains *why* the protocol is structured the way it is.
 >
 > The protocol should evolve from observed behaviour rather than design intuition.
 > This document preserves that reasoning.
@@ -132,15 +132,15 @@ Methodology, accepted knowledge and research history evolve at different rates.
 
 Therefore they should remain separate.
 
-Protocol.md
+protocol.md
 
 : Collaboration methodology.
 
-Project-State.md
+project-state.md
 
 : Current accepted understanding.
 
-Session-Log.md
+session-log.md
 
 : Chronological research history.
 
@@ -206,7 +206,7 @@ Recognizing the operation reduces ambiguity.
 
 Maintenance should preserve identity.
 
-Updating `Project-State.md` is different from creating `Project-State-search.md`.
+Updating `project-state.md` is different from creating `project-state-search.md`.
 
 Identity belongs to the project rather than today's topic.
 

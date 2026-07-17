@@ -65,18 +65,14 @@ If you open a domain issue here, please use it as a **reference only** and link 
 ### Overview
 
 - protocol.md sets the overall goal, a collaborative session where available sources are tested before they are added to the knowledge base. It defines the collaboration protocol-
-- RATIONALE.md explains WHY the protocol is structured as it is.
+- rationale.md explains WHY the protocol is structured as it is.
 - project-state.md and session-log.md are placeholders on top level. As you work you capture your current accepted understanding.
 - projects contain work done on TECO and Macro assembler on TOPS-20.
-- TODO.md contains current possible improvements that should be tested before being incorporated into protocol.md, RATIONALE.md or getting a file of it's own.
+- TODO.md (if present) contains current possible improvements that should be tested before being incorporated into protocol.md, rationale.md or getting a file of it's own.
 
 ### Instruction
 
-To start a new project, upload protocol.md, RATIONALE.md and top level project-state.md and session-log.md. The protocol enables the LLM to establish collaboration quickly once you
-introduce the project.  
-The prompt works really good when you "learn as you go along", assisted by the LLM.
-
-For existing projects you can restart a prompt with the protocol, RATIONALE and updated project state/session log that capture where you are in the project.
+See QUICK-START.md.
 
 ### Development
 
@@ -85,7 +81,7 @@ Assist the collaboration by introducing new artefacts only when clear patterns e
 
 ### Take it for a spin...
 
-Start an LLM session. Upload the protocol.md and RATIONALE.md along with projects/emacs-teco/project-state.md and projects/emacs-teco/session-log.md and you should be able to ask questions about TECO and how original EMACS uses it.
+Start an LLM session. Upload the protocol.md and rationale.md along with projects/emacs-teco/project-state.md and projects/emacs-teco/session-log.md and you should be able to ask questions about TECO and how original EMACS uses it.
 Likewise, the project state and session log in projects/macro-20 should allow you to get started with MACRO in TOPS-20.
 These projects serve as reference implementations of the protocol.
 

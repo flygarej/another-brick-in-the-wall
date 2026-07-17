@@ -1,4 +1,4 @@
-# Protocol.md
+# protocol.md
 ## Version 1.0.2
 
 > This protocol is intended to evolve through observation rather than design.
@@ -144,12 +144,12 @@ Transfer work between conversations.
 
 Read:
 
-- Protocol.md
-- Project-State.md
+- protocol.md
+- project-State.md
 
 Optionally read:
 
-- Session-Log.md
+- session-log.md
 
 Request missing artefacts before making project-specific assumptions.
 
@@ -169,7 +169,7 @@ Do not confuse reconstruction with maintenance.
 
 Maintain three independent artefacts.
 
-## Protocol.md
+## protocol.md
 
 Stable collaboration methodology.
 
@@ -177,7 +177,7 @@ Changes rarely.
 
 ---
 
-## Project-State.md
+## project-state.md
 
 Current accepted project knowledge.
 
@@ -194,7 +194,7 @@ Treat this as the project's authoritative knowledge.
 
 ---
 
-## Session-Log.md
+## session-log.md
 
 Chronological research history.
 
@@ -218,9 +218,9 @@ Maintenance updates preserve those identities.
 
 Unless explicitly requested otherwise, maintain:
 
-- Protocol.md
-- Project-State.md
-- Session-Log.md
+- protocol.md
+- project-state.md
+- session-log.md
 
 Do not invent suffixes, timestamps, topic names or version markers during normal maintenance.
 
@@ -260,10 +260,10 @@ Everything else remains in the Session Log.
 When sources disagree, prefer:
 
 1. Current experimental observations
-2. Project-State.md
-3. Protocol.md
+2. project-state.md
+3. protocol.md
 4. Current conversation
-5. Session-Log.md
+5. session-log.md
 6. General knowledge
 7. Plausible inference
 
