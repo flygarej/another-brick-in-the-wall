@@ -7,7 +7,8 @@ This repository holds my ongoing work to create a working LLM prompt to do colla
 - protocol.md sets the overall goal, a collaborative session where available sources are tested before they are added to the knowledge base. Basically it defines HOW we reason-
 - RATIONALE.md explains WHY the protocol is structured as it is.
 - project-state.md and session-log.md are placeholders on top level. As you work you record information about your findings in them.
-- projects contain work done on TECO and Macro assembler on TOPS-20. 
+- projects contain work done on TECO and Macro assembler on TOPS-20.
+- TODO.md contains current possible improvements that should be tested before being incorporated into protocol.md, RATIONALE.md or getting a file of it's own.
 
 ### Instruction
 
@@ -20,3 +21,8 @@ For existing projects you can restart a prompt with the protocol, RATIONALE and 
 
 Using the protocol will allow the LLM to add domain-specific knowledge in new files, such as mental-model.md, architecture.md etc. It should, however, hold off from such changes until clear patterns emerge.  
 Do assist it to make good decisions on this matter.
+
+### Take it for a spin...
+
+Start an LLM session. Upload the protocol.md and RATIONALE.md along with projects/emacs-teco/project-state.md and projects/emacs-teco/session-log.md and you should be able to ask questions about TECO and how original EMACS uses it.
+Likewise, the project state and session log in projects/macro-20 should allow you to get started with MACRO in TOPS-20.
