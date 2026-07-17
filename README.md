@@ -41,3 +41,9 @@ Do assist it to make good decisions on this matter.
 
 Start an LLM session. Upload the protocol.md and RATIONALE.md along with projects/emacs-teco/project-state.md and projects/emacs-teco/session-log.md and you should be able to ask questions about TECO and how original EMACS uses it.
 Likewise, the project state and session log in projects/macro-20 should allow you to get started with MACRO in TOPS-20.
+
+## License
+
+This repository is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+You are encouraged to fork, adapt and improve the protocol for your own research or domain. Attribution is appreciated; compatibility is more important than uniformity.
