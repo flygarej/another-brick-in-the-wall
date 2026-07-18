@@ -148,6 +148,42 @@ This separation reduces reconstruction errors and improves continuity.
 
 ---
 
+## Why maintain consistency between Project State and Session Log?
+
+The two artefacts intentionally serve different purposes, but they are expected to remain conceptually consistent.
+
+Project State records the project's current accepted understanding.
+
+Session Log records the observations, experiments, hypotheses, decisions and discarded ideas that led to that understanding.
+
+The relationship is therefore complementary rather than redundant.
+
+Project State answers:
+
+> What do we currently believe?
+
+Session Log answers:
+
+> Why do we currently believe it?
+
+The Session Log is not authoritative over the Project State.
+
+However, the Project State should normally be explainable from the evidence preserved in the Session Log.
+
+Consequently, inconsistencies between the two artefacts are often valuable diagnostic signals rather than problems to be silently corrected.
+
+They may indicate:
+
+- missing maintenance;
+- incomplete project history;
+- mixed project artefacts;
+- accidental loss of provenance;
+- or conclusions that were promoted without sufficient supporting evidence.
+
+When such inconsistencies are discovered, they should generally prompt investigation rather than automatic reconciliation.
+
+---
+
 ## Why Git?
 
 Git already provides:

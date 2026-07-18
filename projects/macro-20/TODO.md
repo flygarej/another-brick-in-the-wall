@@ -1,7 +1,4 @@
-# TODO
-
-This file contains ideas put forth during work with the protocol that might be worth integrating into the protocol. 
-Treat it more as a "keep this idea for consideration" than a "must do".
+# Potential changes to protocol.md
 
 ### Candidate protocol evolution: Separate conceptual models
 
